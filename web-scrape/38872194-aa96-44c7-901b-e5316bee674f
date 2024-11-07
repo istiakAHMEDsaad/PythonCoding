@@ -1,0 +1,84 @@
+{
+  "id": "76ac9920-7921-4366-bbbd-b6d2cbe1743c",
+  "version": "2.0",
+  "name": "bubt-student",
+  "url": "https://bubt.edu.bd",
+  "tests": [{
+    "id": "dba89fc6-876c-40e4-830f-915f11b22184",
+    "name": "Untitled",
+    "commands": [{
+      "id": "334029da-5951-4ff9-a3dc-62bd65bdd093",
+      "comment": "",
+      "command": "open",
+      "target": "/global_file/validityCheck.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a57604f6-0510-46e4-848b-f3a7d5d89945",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d643be1-93f9-493f-8131-c24b52e56c06",
+      "comment": "",
+      "command": "click",
+      "target": "id=verifyType",
+      "targets": [
+        ["id=verifyType", "id"],
+        ["name=verifyType", "name"],
+        ["css=#verifyType", "css:finder"],
+        ["xpath=//select[@id='verifyType']", "xpath:attributes"],
+        ["xpath=//div[@id='verificationInput']/div/div/form/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48e54d8d-64e0-49d0-8c4b-15019be4c2aa",
+      "comment": "",
+      "command": "select",
+      "target": "id=verifyType",
+      "targets": [],
+      "value": "label=Student's Identity Verification"
+    }, {
+      "id": "f6c52d9b-67f4-497f-b352-322b92ac5d7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=idNo",
+      "targets": [
+        ["id=idNo", "id"],
+        ["name=idNo", "name"],
+        ["css=#idNo", "css:finder"],
+        ["xpath=//input[@id='idNo']", "xpath:attributes"],
+        ["xpath=//div[@id='verificationInput']/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c8f287-c41f-48a7-a97b-8f3bf09fc3d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=idNo",
+      "targets": [
+        ["id=idNo", "id"],
+        ["name=idNo", "name"],
+        ["css=#idNo", "css:finder"],
+        ["xpath=//input[@id='idNo']", "xpath:attributes"],
+        ["xpath=//div[@id='verificationInput']/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "22234103057"
+    }]
+  }],
+  "suites": [{
+    "id": "f3e1e6c6-22cb-426d-a864-ce8a6a6e7ae1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dba89fc6-876c-40e4-830f-915f11b22184"]
+  }],
+  "urls": ["https://bubt.edu.bd/"],
+  "plugins": []
+}
